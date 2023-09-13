@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       
       <NavBar logo={imgLogo}/>
-      <ItemListContainer greetings= "Bienvenidos"/>
+      <ItemListContainer greetings= "Bienvenidos !!"/>
 
     </div>
   );
