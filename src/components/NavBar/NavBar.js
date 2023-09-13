@@ -1,13 +1,10 @@
 
 
-
-
-
 const NavBar = ({ logo }) => {
     return(
         <>
        
-        <nav className="navbar is-link" role="navigation" aria-label="main navigation">
+        <nav className="navbar is-warning" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">  
                     <img src={logo} width="112" height="112" alt="" />
                 <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" href="a">
@@ -18,33 +15,34 @@ const NavBar = ({ logo }) => {
             </div>
 
             <div id="navbarBasicExample" className="navbar-menu">
-                <div className="navbar-start">
-                    <a className="navbar-item" href="a">
+                <div className="navbar-start title is-size-4" >
+                    <a className="navbar-item " href="a" >
                         Home
                     </a>
-
                     <a className="navbar-item" href="a">
-                        Documentation
+                        Nuestros Productos
                     </a>
-
+                    <a className="navbar-item" href="a">
+                        Nuestros Servicios
+                    </a>
                     <div className="navbar-item has-dropdown is-hoverable">
                         <a className="navbar-link" href="a">
-                            More
+                            Mas
                         </a>
 
                         <div className="navbar-dropdown">
                             <a className="navbar-item" href="a">
-                                About
+                                Acerca de
                             </a>
                             <a className="navbar-item" href="a">
-                                Jobs
+                                Trabaja con nosotros
                             </a>
                             <a className="navbar-item" href="a">
-                                Contact
+                                Contacto
                             </a>
                             <hr className="navbar-divider" />
                             <a className="navbar-item" href="a">
-                                Report an issue
+                                Reportar un problema
                             </a>
                         </div>
                     </div>
