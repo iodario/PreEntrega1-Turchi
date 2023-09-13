@@ -1,4 +1,4 @@
-
+import CartWidget from "../CartWidget/CartWidget";
 
 const NavBar = ({ logo }) => {
     return(
@@ -49,10 +49,11 @@ const NavBar = ({ logo }) => {
                 </div>
 
                 <div className="navbar-end">
-                    <div className="navbar-item">
-                        <div className="buttons">
+                <CartWidget/>
+                    <div className="navbar-item">                   
+                        <div className="buttons">                           
                             <a className="button is-primary" href="a">
-                                <strong>Sign up</strong>
+                                <strong>Sign Up</strong>
                             </a>
                             <a className="button is-light" href="a">
                                 Log in
